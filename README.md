@@ -43,5 +43,5 @@ It includes tasks such as setting up a local repository, creating branches, comm
 ---
 
 ## 📄 Status
-All assignment requirements have been successfully completed.
+All assignment requirements have been successfully completed. 
 
