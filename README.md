@@ -39,7 +39,7 @@ It includes tasks such as setting up a local repository, creating branches, comm
 ## 📌 Branches
 - **main** – Main branch of the project  
 - **feature-update** – Branch used for additional updates  
-
+ 
 ---
 
 ## 📄 Status
