@@ -1,47 +1,64 @@
-# Git and GitHub Assignment – Module 2
+# 📘 Git & GitHub Assignment – Module 2
 
-This repository is created for the Module 2 assignment on **Version Control using Git and GitHub**.  
-It includes tasks such as setting up a local repository, creating branches, committing changes, pushing to GitHub, creating a pull request, and merging branches.
+A structured implementation of Git and GitHub workflows as part of **Module 2: Version Control using Git and GitHub**.  
+This repository demonstrates initializing a local repository, creating branches, managing commits, working with remote repositories, creating pull requests, and merging changes.
 
 ---
 
-## ✔️ Assignment Tasks Completed
+## 🚀 Overview
 
-### 1. Local Git Repository Setup
-- Created a new folder for the project  
-- Initialized a Git repository  
-- Added a README.md file  
-- Staged and committed the initial files  
+The main objective of this assignment is to apply essential version control skills using Git and GitHub.  
+The tasks completed in this project represent a real-world collaborative workflow, involving:
 
-### 2. GitHub Repository Setup
-- Created a new public repository on GitHub  
+- Repository initialization  
+- Branching strategy  
+- Commit management  
+- Remote repository setup  
+- Pull request workflow  
+- Merge operations  
+
+---
+
+## 🧩 Tasks Completed
+
+### **1. Local Repository Setup**
+- Created a new project directory  
+- Initialized Git using `git init`  
+- Added a **README.md** file  
+- Staged and committed the initial changes  
+
+### **2. Remote Repository Setup**
+- Created a new public GitHub repository  
 - Connected the local repository using `git remote add origin`  
 - Pushed the `main` branch to GitHub  
 
-### 3. New Branch Creation
-- Created a new branch named **feature-update**  
+### **3. Branch Creation & Updates**
+- Created a new branch: **feature-update**  
 - Switched to the branch  
-- Updated README.md / added new content  
-- Staged and committed the changes  
+- Updated README.md / added new files  
+- Staged and committed the new changes  
 
-### 4. Push & Pull Request
+### **4. Push & Pull Request Workflow**
 - Pushed the `feature-update` branch to GitHub  
-- Created a Pull Request from `feature-update` to `main`  
-- Added a short description to the PR  
-- Merged the Pull Request  
+- Opened a Pull Request (PR) to merge into `main`  
+- Added a meaningful description to the PR  
+- Successfully merged the PR  
 
-### 5. Update Local Repository
+### **5. Local Repository Synchronization**
 - Switched back to the `main` branch locally  
-- Pulled the latest merged changes from GitHub  
+- Pulled the latest merged changes from GitHub using `git pull`  
 
 ---
 
-## 📌 Branches
-- **main** – Main branch of the project  
-- **feature-update** – Branch used for additional updates  
+## 🛠️ Git Commands Used
 
----
-
-## 📄 Status
-All assignment requirements have been successfully completed.
-
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git branch feature-update
+git checkout feature-update
+git remote add origin <repository-url>
+git push -u origin main
+git push -u origin feature-update
+git pull
